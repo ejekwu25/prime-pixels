@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css"> 
+    <title>gridcolors</title>
+</head>
+<body>
+    <header id="header">PRIME-PIXEL</header>
+    <main>
+        <section id="section-1">
+          <h2 id="h2">Choose Grid size</h2>
+            <form id="form1">
+              
+              <div id="grid-height">
+                <label id="gh" class="gh">Grid height:</label>
+              </div>
+              <div id="input-height">
+                <input type="number" id="height" name="height" min="1" value="1">
+              </div>
+            </form>
+
+            <form id="form2">
+                <div id="grid-width">
+                  <label id="gw" class="gw">Grid width:</label>
+                </div>
+                <div id="input-width">
+                  <input type="number" id="width" name="width" min="1" value="1">
+                </div>
+              </form>
+              <button id="submit">submit</button>
+        </section>
+        <section id="section-2">
+              <div id="color-div">
+                <h3 id="picker">Color Picker</h3>
+                <input type="color" id="color">
+              </div>
+              <div id="clear-div">
+                <h3 id="h3">Design pixel</h3>
+                <button id="clear-grid">Clear grid</button>
+              </div>  
+            <table id="grid-boxes">
+              <tbody id="tbody"></tbody>
+
+            </table>
+        </section>
+    </main>
+    <footer>This is footer</footer>
+    <script src="script.js"></script>
+</body>
+</html>
